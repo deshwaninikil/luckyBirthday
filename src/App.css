@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap");
+.App {
+  width: 100%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: yellow;
+}
+
+body {
+  margin: 0;
+  background-color: yellow;
+}
+
+.main-section {
+  /* background: url(images/happy-birthday.gif); */
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.alert {
+  background-color: #778899;
+  color: #fff;
+  width: 23rem;
+  margin: auto;
+}
+
+.bday-div {
+  margin: 20px;
+  margin: auto;
+  width: 300px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: transparent;
+  font-size: large;
+  margin: 1rem 0;
+}
+
+.footer {
+  background-color: #778899;
+  padding: 3.5rem;
+  text-align: center;
+  color: #000;
+  border-top-right-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .link i {
+  margin: 30px 0;
+  font-size: 1.75rem;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer i:hover {
+  color: black;
+  transform: translateY(-5px);
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 2.5rem;
+}
+
+/** links **/
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  border: none;
+  font-size: large;
+  padding: 4px;
+  background-color: #778899;
+}
+
+.mesaage-txt {
+  font-size: large;
+}
